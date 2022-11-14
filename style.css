@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+body {
+    background-image: url(photo/neon-4k-hd-best-for-desktop-wallpaper-preview\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    color: white;
+    width: 100%;
+    font-size: 17px;
+}
+
+.logo {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.welcomecon {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 35px;
+    padding-top: 20%;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headlist {
+    width: 200px;
+    padding: 10px;
+}
